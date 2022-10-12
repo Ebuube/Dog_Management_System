@@ -2,6 +2,12 @@
 
 #include <stdio.h>
 
+/**
+ * main - A very simple implementation of the system as it is still
+ * under construction
+ *
+ * Return: Always 0 on success
+ */
 int main(void)
 {
 	dog_t *my_dog = 0;
