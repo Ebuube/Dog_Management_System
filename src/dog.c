@@ -1,4 +1,5 @@
 #include "dog.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -28,7 +29,9 @@ dog_t *new_dog(void)
  * @age_in_months: age of the dog in months
  * @owner_name: name of the owner
  *
- * Description: if owner's name is not passed, let the dog be STRAY
+ * Description: if owner's name is not passed, let the dog be STRAY DOG
+ * if the dog has no name, let it be UNKNOWN,
+ * and if there is no mention breed, let it be UNCLASSIFIED
  * Return: pointer to dog_t type
  */
 dog_t *init_dog(dog_t *dog, char *dog_name, char *breed,
@@ -51,7 +54,7 @@ dog_t *init_dog(dog_t *dog, char *dog_name, char *breed,
  * print_dog - prints the record for a dog to stdout
  * @dog: pointer to dog_t type
  *
- * Return: number of details in the dog variable passed
+ * Return: the number of details in the dog variable passed
  */
 int print_dog(dog_t *dog)
 {
