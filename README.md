@@ -1,7 +1,7 @@
 ```
 ONWUTA EBUBE GIDEON
 ```
-## Dog Registration System
+## Dog Management System
 
 This project is a management system used to keep track of the dogs
 sold and managed by dog sellers. It was inspired by my brother who
